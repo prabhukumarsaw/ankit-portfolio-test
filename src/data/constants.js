@@ -1,5 +1,3 @@
-import pic1 from './portfolio/(1).jpg'
-
 export const Bio = {
   name: "Ankit Chourasiya",
   roles: [
@@ -325,7 +323,7 @@ export const projects = [
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
-      {pic1},
+      "https://photos.app.goo.gl/W5vk6J8s9vDiN8Hn6/view",
     tags: [
       "Docker",
     
@@ -368,7 +366,7 @@ export const projects = [
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image:
-      "https://drive.google.com/file/d/1m9H4Ncb4V05X-fh9O1bcsyIp7tGTDTft/view?usp=sharing",
+      "https://photos.app.goo.gl/GkdfR25ZAsY5vNk16",
     tags: [
       "React Js",
       "MongoDb",
