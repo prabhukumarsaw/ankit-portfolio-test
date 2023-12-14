@@ -1,3 +1,12 @@
+import a from './portfolio/(1).jpg'
+import b from './portfolio/(2).jpg'
+import c from './portfolio/(3).jpg'
+import d from './portfolio/(4).jpg'
+import e from './portfolio/(5).jpg'
+import f from './portfolio/(6).jpg'
+import g from './portfolio/(7).jpg'
+
+
 export const Bio = {
   name: "Ankit Chourasiya",
   roles: [
@@ -322,8 +331,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/12532091/135541406-7141a8d7-7bf9-4c82-a4d9-ea4b7fe1fb34.jpg",
+    image: a,
     tags: [
       "Docker",
     
@@ -338,8 +346,7 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://drive.google.com/file/d/1uRjyiqAQmBG7GCpWDkUzIb_G_TwtqBaM",
+    image:b,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
@@ -365,8 +372,7 @@ export const projects = [
     date: "Oct 2022 - Present",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://photos.app.goo.gl/GkdfR25ZAsY5vNk16",
+    image:c,
     tags: [
       "React Js",
       "MongoDb",
@@ -385,8 +391,7 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
       "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "",
+    image: d,
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     github: "",
@@ -412,8 +417,7 @@ export const projects = [
     date: "Dec 2021 - Apr 2022",
     description:
       "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://drive.google.com/file/d/1it61Lkt9WIXsjN-FmfWCZkIlJrpVmZ8M/view?usp=sharing",
+    image: e,
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "android app",
     github: "",
@@ -425,8 +429,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    image: f,
     tags: ["React Native", "JavaScript", "Axios"],
     category: "android app",
     github: "",
@@ -438,8 +441,7 @@ export const projects = [
     date: "Jul 2021",
     description:
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+    image: f,
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "web app",
     github: "",
@@ -451,8 +453,7 @@ export const projects = [
     date: "Jun 2021",
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+    image: g, 
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "web app",
     github: "",
