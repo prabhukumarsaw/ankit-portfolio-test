@@ -1,3 +1,5 @@
+import pic1 from './portfolio/(1).jpg'
+
 export const Bio = {
   name: "Ankit Chourasiya",
   roles: [
@@ -323,7 +325,7 @@ export const projects = [
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
-      "./portfolio/(12).jpg",
+      {pic1},
     tags: [
       "Docker",
     
